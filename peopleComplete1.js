@@ -1,7 +1,6 @@
 var fs = require('fs');
 
-// var people1 = people1;
-// var people2 = people2;
+
 var people = [];
 
 fs.readFile('people1.json','utf-8', function (err, data) {
@@ -34,8 +33,3 @@ fs.readFile('people1.json','utf-8', function (err, data) {
           });
     });
 });
-
-
-
-
-// + data.toString());
